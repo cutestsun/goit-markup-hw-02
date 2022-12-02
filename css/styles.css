@@ -33,7 +33,7 @@ a {
   color: var(--main-text-color);
   text-decoration: none;
 }
-.logo span {
+.logo .accent {
   color: var(--primary-brand-color);
 }
 
