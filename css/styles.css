@@ -4,13 +4,14 @@
   --primary-brand-color: #4d5ae5;
   --light-backgrounds-color: #f4f4fd;
   --accent-color: #e7e9fc;
+  --white-background-color: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   color: var(--main-text-color);
+  background-color: var(--white-background-color);
 }
 
 .list {
@@ -72,7 +73,7 @@ a {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-background-color);
 }
 
 .btn {
@@ -89,7 +90,7 @@ a {
   background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--white-background-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -116,7 +117,9 @@ a {
   overflow: hidden;
 }
 
-.section-subtitle {
+.section-subtitle,
+.team-name,
+.project-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,7 +127,9 @@ a {
   color: var(--headings-color);
 }
 
-.section-description {
+.section-description,
+.team-position,
+.project-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -179,7 +184,7 @@ footer {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 
-  color: #ffffff;
+  color: var(--white-background-color);
 }
 .portfolio-btn:active {
   background: #404bbf;
