@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-📚 HTML/CSS 2nd homework
+📚 HTML/CSS Homework 2
